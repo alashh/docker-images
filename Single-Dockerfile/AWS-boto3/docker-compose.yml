@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+    build: .
+    command: sh
+    volumes:
+      - ./scripts:/root/scripts

@@ -1,0 +1,28 @@
+Flask==0.10.1
+
+# Application Server for Dev and Prod.
+gunicorn==19.4.5
+
+# Testing and Static Analysis.
+pytest==2.9.1
+pytest-cov==2.2.1
+flake8==2.5.4
+
+# Data and Workers.
+redis==2.10.6
+celery==4.1.0
+
+
+# Forms
+Flask-WTF==0.14.2
+WTForms-Components==0.10.3
+WTForms-Alchemy==0.16.3
+
+# Extensions.
+flask-debugtoolbar==0.10.0
+Flask-Mail==0.9.1
+Flask-Login==0.4.0
+
+# SQL
+psycopg2==2.7.3
+Flask-SQLAlchemy==2.3.1

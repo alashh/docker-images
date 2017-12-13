@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  python:
+    build: .
+    command: sh
+    volumes:
+      - ./scripts:/root/scripts
