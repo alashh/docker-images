@@ -9,7 +9,7 @@ RUN mkdir .aws
 COPY ./awsconfig  .aws/config
 COPY ./awscred  .aws/credentials
 
-run mkdir scripts
+RUN mkdir scripts
 
 LABEL maintainer="Adam Lash <Adam.Lashh@gmail.com>" \
       version="17.11"
