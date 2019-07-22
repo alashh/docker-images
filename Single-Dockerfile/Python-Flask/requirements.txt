@@ -1,4 +1,4 @@
-Flask==0.10.1
+flask>=1.0.0
 
 # Application Server for Dev and Prod.
 gunicorn==19.5.0
