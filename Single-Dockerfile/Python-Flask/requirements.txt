@@ -10,7 +10,7 @@ flake8==2.5.4
 
 # Data and Workers.
 redis==2.10.6
-celery==4.1.0
+celery==5.2.2
 
 
 # Forms
